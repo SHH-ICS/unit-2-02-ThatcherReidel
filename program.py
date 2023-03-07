@@ -2,8 +2,11 @@
 # Task:  Use the function myFunction to output a simple "Hello World!" statement
 
 def myFunction():
-    print("Hello World!")
+    x = "Hello World!"
+    y = 15
+    print("x is %s which is what I want to say" % (x))
+    print("y is %d which is how old I am" % (y))
 
-myFunction()  # Output: "Hello World!"
+myFunction()  # Outpunt: "Hello World!"
 
 
