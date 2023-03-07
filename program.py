@@ -1,12 +1,11 @@
 # My Python Program
 # Task:  Use the function myFunction to output a simple "Hello World!" statement
 
-def myFunction():
-    x = "Hello World!"
+def myFunction(name):
     y = 15
-    print("x is %s which is what I want to say" % (x))
+    print("Welcome to the world %s" % (name))
     print("y is %d which is how old I am" % (y))
 
-myFunction()  # Outpunt: "Hello World!"
+myFunction("T Diddy")  # Output: "Hello World!"
 
 
